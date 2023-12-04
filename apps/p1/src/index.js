@@ -11,35 +11,40 @@ root.render(
     <Testimonio
       nom='Alexia'
       edad="12"
+      imatge="alexia"
       esport="Basket"
       institut="Institut A"
       texte="Lorem ipsum..."
     />
     <Testimonio
-      nom='Alexia'
-      edad="12"
-      esport="Basket"
+      nom='Judith'
+      edad="13"
+      imatge="alexia"
+      esport="Tenis"
       institut="Institut A"
       texte="Lorem ipsum..."
     />
     <Testimonio
-      nom='Alexia'
-      edad="12"
-      esport="Basket"
+      nom='Victoria'
+      edad="11"
+      imatge="alexia"
+      esport="Beisbol"
       institut="Institut A"
       texte="Lorem ipsum..."
     />
     <Testimonio
-      nom='Alexia'
-      edad="12"
-      esport="Basket"
+      nom='Raquel'
+      edad="13"
+      imatge="alexia"
+      esport="Fútbol"
       institut="Institut A"
       texte="Lorem ipsum..."
     />
     <Testimonio
-      nom='Alexia'
-      edad="12"
-      esport="Basket"
+      nom='Alba'
+      edad="11"
+      imatge="alexia"
+      esport="Natación"
       institut="Institut A"
       texte="Lorem ipsum..."
     />

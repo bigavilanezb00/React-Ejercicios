@@ -1,19 +1,14 @@
 import React from "react";
 import '../assets/Testimonio.css';
-import alexia from '../assets/img/alexia.jpeg'
 
 const Testimonio  = (props) => {
     return (
         <div className="testimonio">
-            <div className="testimonioA">
-            <img src={alexia} className="alexiaImg" alt="alexia"/>
-            </div>
-            <div className="testimonioB">
-                <h2 className="header">{props.nom} - {props.edad} anys</h2>
-                <p>{props.esport}</p>
-                <p>{props.institut}</p>
-                <p>{props.texte}</p>
-            </div>
+            <img src={require(`../assets/img/${props.imatge}.jpeg`)} alt={`${props.nom} - ${props.esport}`}/>
+            <h2 className="header">{props.nom} - {props.edad} anys</h2>
+            <p>{props.esport}</p>
+            <p>{props.institut}</p>
+            <p>{props.texte}</p>
         </div>
     )
 };
